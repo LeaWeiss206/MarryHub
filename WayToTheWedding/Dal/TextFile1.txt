@@ -1,0 +1,11 @@
+﻿Scaffold-DbContext 'Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename="C:\Users\וייס לאה.MBJCOMP\Desktop\Project\WayToTheWedding\DB\Database1.mdf";Integrated Security=True;Connect Timeout=30' Microsoft.EntityFrameworkCore.SqlServer –Context SiteContext -OutputDir Models -NoOnConfiguring -Force
+
+
+
+
+Scaffold-DbContext 'Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\USERS\וייס לאה.MBJCOMP\DESKTOP\PROJECT\WAYTOTHEWEDDING\DB\DATABASE1.MDF;Integrated Security=True;Connect Timeout=30' Microsoft.EntityFrameworkCore.SqlServer –Context SiteContext -OutputDir Models -NoOnConfiguring -Force
+
+C:\USERS\וייס לאה.MBJCOMP\DESKTOP\PROJECT\WAYTOTHEWEDDING\DB\DATABASE1.MDF
+
+
+'Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename={0}\DB\DATABASE1.MDF;Integrated Security=True;Connect Timeout=30'
