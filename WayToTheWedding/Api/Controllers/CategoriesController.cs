@@ -1,4 +1,5 @@
 ﻿using Bl.BlApi;
+using Bl.Bo;
 using Microsoft.AspNetCore.Mvc;
 
 
@@ -16,7 +17,10 @@ public class CategoriesController
         this.iCitiesRepo = iCitiesRepo;
 
     }
-  /// [HttpGet]
-  //  public ActionResult<List<>>
+   [HttpGet]
+    public ActionResult<List<Category>> GetAll()
+    {
+        return iCitiesRepo.GetAll();
+    }
 
 }
