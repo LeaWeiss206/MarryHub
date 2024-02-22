@@ -1,7 +1,7 @@
 ﻿using Bl.Bo;
 using Dal.DalApi;
 using Dal.DalImplementation;
-using Dal.Models;
+//using Dal.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,12 +19,12 @@ namespace Bl.BlImplementaion
             this.iCitiesRepo = iCitiesRepo;
         }
 
-        public List<Bo.City> GetAll()
+        public List<City> GetAll()
         {
-            List<Bo.City> list = new List<Bo.City>();
+            List<City> list = new List<City>();
             foreach (var c in iCitiesRepo.GetAll())
             {
-                Bo.City city = new();
+                City city = new();
                 city.Id = c.Id;
                 city.Name = c.Name;
                 list.Add(city); 

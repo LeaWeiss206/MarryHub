@@ -17,6 +17,7 @@ namespace Api.Controllers
             this.iCitiesRepo = iCitiesRepo;
         }
         [HttpGet]
+
         public ActionResult<List<City>> GetAll()
         {
             return iCitiesRepo.GetAll();
