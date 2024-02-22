@@ -10,20 +10,22 @@ namespace Dal.DalImplementation
 {
     public class CitiesRepo : ICitiesRepo
     {
-        SiteContext SiteContext;
-        public CitiesRepo(SiteContext SiteContext)
+        SiteContext siteContext;
+        public CitiesRepo(SiteContext siteContext)
         {
-            this.SiteContext = SiteContext;
+            this.siteContext = siteContext;
             
         }
         public List<City> GetAll()
         {
-           return SiteContext.Cities.ToList();
+           return siteContext.Cities.ToList();
         }
 
         public City Create(City item)
         {
-            throw new NotImplementedException();
+            siteContext.Cities.Add(item);
+            siteContext.SaveChanges();
+            return item;
         }
         public City Update(int Id, City item)
         {
