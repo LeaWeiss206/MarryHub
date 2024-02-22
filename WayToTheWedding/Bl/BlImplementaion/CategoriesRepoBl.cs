@@ -1,5 +1,6 @@
-﻿using Bl.BlApi;
+﻿
 using Bl.Bo;
+using Dal.DalApi;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,10 +9,10 @@ using System.Threading.Tasks;
 
 namespace Bl.BlImplementaion
 {
-    public class CategoryRepo : Bl.BlApi.ICategoriesRepo
+    public class CategoriesRepoBl : Bl.BlApi.ICategoriesRepo
     {
         ICategoriesRepo iCategoriesRepo;
-        public CategoryRepo(ICategoriesRepo iCategoriesRepo)
+        public CategoriesRepoBl(ICategoriesRepo iCategoriesRepo)
         {
             this.iCategoriesRepo = iCategoriesRepo;
         }

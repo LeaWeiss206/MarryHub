@@ -1,3 +1,4 @@
+using Bl;
 using Bl.BlApi;
 using Bl.BlImplementaion;
 using Dal;
@@ -10,13 +11,17 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 
+builder.Services.AddSingleton<BlManager>();
 
 DBActions db = new DBActions(builder.Configuration);
 string connStr = db.GetConnectionString("SiteDB");
 builder.Services.AddDbContext<SiteContext>(opt => opt.UseSqlServer(connStr));
 
-builder.Services.AddScoped<ICitiesRepo, CitiesRepoBl>();
-builder.Services.AddScoped<Dal.DalApi.ICitiesRepo, Dal.DalImplementation.CitiesRepo>();
+//builder.Services.AddScoped<ICitiesRepo, CitiesRepoBl>();
+//builder.Services.AddScoped<ICategoriesRepo,CategoryRepo>();
+//builder.Services.AddScoped<Dal.DalApi.ICitiesRepo, Dal.DalImplementation.CitiesRepo>();
+//builder.Services.AddScoped<Dal.DalApi.ICategoriesRepo, Dal.DalImplementation.CategoriesRepo>();
+
 
 var app = builder.Build();
 
