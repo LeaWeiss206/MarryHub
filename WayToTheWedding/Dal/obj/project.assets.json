@@ -2884,23 +2884,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\וייס לאה\\.nuget\\packages\\": {},
+    "C:\\Users\\נלנגר חיה שרה\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\וייס לאה\\Desktop\\Project\\WayToTheWedding\\Dal\\Dal.csproj",
+      "projectUniqueName": "H:\\Project\\WayToTheWedding\\Dal\\Dal.csproj",
       "projectName": "Dal",
-      "projectPath": "C:\\Users\\וייס לאה\\Desktop\\Project\\WayToTheWedding\\Dal\\Dal.csproj",
-      "packagesPath": "C:\\Users\\וייס לאה\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\וייס לאה\\Desktop\\Project\\WayToTheWedding\\Dal\\obj\\",
+      "projectPath": "H:\\Project\\WayToTheWedding\\Dal\\Dal.csproj",
+      "packagesPath": "C:\\Users\\נלנגר חיה שרה\\.nuget\\packages\\",
+      "outputPath": "H:\\Project\\WayToTheWedding\\Dal\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\וייס לאה\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\נלנגר חיה שרה\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
