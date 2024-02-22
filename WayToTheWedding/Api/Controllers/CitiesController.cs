@@ -1,4 +1,5 @@
-﻿using Bl.BlApi;
+﻿using Bl;
+using Bl.BlApi;
 using Bl.BlImplementaion;
 using Bl.Bo;
 using Dal.DalImplementation;
@@ -11,16 +12,16 @@ namespace Api.Controllers
     [ApiController]
     public class CitiesController : ControllerBase
     {
-        ICitiesRepo iCitiesRepo;
-        public CitiesController(ICitiesRepo iCitiesRepo)
+        ICitiesRepo CitiesRepo;
+        public CitiesController(BlManager blManager)
         {
-            this.iCitiesRepo = iCitiesRepo;
+            CitiesRepo = blManager.CitiesRepo;
         }
         [HttpGet]
 
         public ActionResult<List<City>> GetAll()
         {
-            return iCitiesRepo.GetAll();
+            return CitiesRepo.GetAll();
         }
 
 

@@ -28,3 +28,18 @@ C:\Users\וייס לאה\Desktop\Project\WayToTheWedding\Bl\obj\Debug\net7.0\Bl.
 C:\Users\וייס לאה\Desktop\Project\WayToTheWedding\Bl\obj\Debug\net7.0\refint\Bl.dll
 C:\Users\וייס לאה\Desktop\Project\WayToTheWedding\Bl\obj\Debug\net7.0\Bl.pdb
 C:\Users\וייס לאה\Desktop\Project\WayToTheWedding\Bl\obj\Debug\net7.0\ref\Bl.dll
+C:\Users\נלנגר חיה שרה\Desktop\Project\WayToTheWedding\Bl\bin\Debug\net7.0\Bl.deps.json
+C:\Users\נלנגר חיה שרה\Desktop\Project\WayToTheWedding\Bl\bin\Debug\net7.0\Bl.dll
+C:\Users\נלנגר חיה שרה\Desktop\Project\WayToTheWedding\Bl\bin\Debug\net7.0\Bl.pdb
+C:\Users\נלנגר חיה שרה\Desktop\Project\WayToTheWedding\Bl\bin\Debug\net7.0\Dal.dll
+C:\Users\נלנגר חיה שרה\Desktop\Project\WayToTheWedding\Bl\bin\Debug\net7.0\Dal.pdb
+C:\Users\נלנגר חיה שרה\Desktop\Project\WayToTheWedding\Bl\obj\Debug\net7.0\Bl.csproj.AssemblyReference.cache
+C:\Users\נלנגר חיה שרה\Desktop\Project\WayToTheWedding\Bl\obj\Debug\net7.0\Bl.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\נלנגר חיה שרה\Desktop\Project\WayToTheWedding\Bl\obj\Debug\net7.0\Bl.AssemblyInfoInputs.cache
+C:\Users\נלנגר חיה שרה\Desktop\Project\WayToTheWedding\Bl\obj\Debug\net7.0\Bl.AssemblyInfo.cs
+C:\Users\נלנגר חיה שרה\Desktop\Project\WayToTheWedding\Bl\obj\Debug\net7.0\Bl.csproj.CoreCompileInputs.cache
+C:\Users\נלנגר חיה שרה\Desktop\Project\WayToTheWedding\Bl\obj\Debug\net7.0\Bl.csproj.CopyComplete
+C:\Users\נלנגר חיה שרה\Desktop\Project\WayToTheWedding\Bl\obj\Debug\net7.0\Bl.dll
+C:\Users\נלנגר חיה שרה\Desktop\Project\WayToTheWedding\Bl\obj\Debug\net7.0\refint\Bl.dll
+C:\Users\נלנגר חיה שרה\Desktop\Project\WayToTheWedding\Bl\obj\Debug\net7.0\Bl.pdb
+C:\Users\נלנגר חיה שרה\Desktop\Project\WayToTheWedding\Bl\obj\Debug\net7.0\ref\Bl.dll

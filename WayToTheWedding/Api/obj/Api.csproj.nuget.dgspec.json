@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "H:\\Project\\WayToTheWedding\\Api\\Api.csproj": {}
+    "C:\\Users\\נלנגר חיה שרה\\Desktop\\Project\\WayToTheWedding\\Api\\Api.csproj": {}
   },
   "projects": {
-    "H:\\Project\\WayToTheWedding\\Api\\Api.csproj": {
+    "C:\\Users\\נלנגר חיה שרה\\Desktop\\Project\\WayToTheWedding\\Api\\Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\Project\\WayToTheWedding\\Api\\Api.csproj",
+        "projectUniqueName": "C:\\Users\\נלנגר חיה שרה\\Desktop\\Project\\WayToTheWedding\\Api\\Api.csproj",
         "projectName": "Api",
-        "projectPath": "H:\\Project\\WayToTheWedding\\Api\\Api.csproj",
+        "projectPath": "C:\\Users\\נלנגר חיה שרה\\Desktop\\Project\\WayToTheWedding\\Api\\Api.csproj",
         "packagesPath": "C:\\Users\\נלנגר חיה שרה\\.nuget\\packages\\",
-        "outputPath": "H:\\Project\\WayToTheWedding\\Api\\obj\\",
+        "outputPath": "C:\\Users\\נלנגר חיה שרה\\Desktop\\Project\\WayToTheWedding\\Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -34,8 +34,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "H:\\Project\\WayToTheWedding\\Bl\\Bl.csproj": {
-                "projectPath": "H:\\Project\\WayToTheWedding\\Bl\\Bl.csproj"
+              "C:\\Users\\נלנגר חיה שרה\\Desktop\\Project\\WayToTheWedding\\Bl\\Bl.csproj": {
+                "projectPath": "C:\\Users\\נלנגר חיה שרה\\Desktop\\Project\\WayToTheWedding\\Bl\\Bl.csproj"
               }
             }
           }
@@ -80,14 +80,14 @@
         }
       }
     },
-    "H:\\Project\\WayToTheWedding\\Bl\\Bl.csproj": {
+    "C:\\Users\\נלנגר חיה שרה\\Desktop\\Project\\WayToTheWedding\\Bl\\Bl.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\Project\\WayToTheWedding\\Bl\\Bl.csproj",
+        "projectUniqueName": "C:\\Users\\נלנגר חיה שרה\\Desktop\\Project\\WayToTheWedding\\Bl\\Bl.csproj",
         "projectName": "Bl",
-        "projectPath": "H:\\Project\\WayToTheWedding\\Bl\\Bl.csproj",
+        "projectPath": "C:\\Users\\נלנגר חיה שרה\\Desktop\\Project\\WayToTheWedding\\Bl\\Bl.csproj",
         "packagesPath": "C:\\Users\\נלנגר חיה שרה\\.nuget\\packages\\",
-        "outputPath": "H:\\Project\\WayToTheWedding\\Bl\\obj\\",
+        "outputPath": "C:\\Users\\נלנגר חיה שרה\\Desktop\\Project\\WayToTheWedding\\Bl\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -109,8 +109,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "H:\\Project\\WayToTheWedding\\Dal\\Dal.csproj": {
-                "projectPath": "H:\\Project\\WayToTheWedding\\Dal\\Dal.csproj"
+              "C:\\Users\\נלנגר חיה שרה\\Desktop\\Project\\WayToTheWedding\\Dal\\Dal.csproj": {
+                "projectPath": "C:\\Users\\נלנגר חיה שרה\\Desktop\\Project\\WayToTheWedding\\Dal\\Dal.csproj"
               }
             }
           }
@@ -144,14 +144,14 @@
         }
       }
     },
-    "H:\\Project\\WayToTheWedding\\Dal\\Dal.csproj": {
+    "C:\\Users\\נלנגר חיה שרה\\Desktop\\Project\\WayToTheWedding\\Dal\\Dal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\Project\\WayToTheWedding\\Dal\\Dal.csproj",
+        "projectUniqueName": "C:\\Users\\נלנגר חיה שרה\\Desktop\\Project\\WayToTheWedding\\Dal\\Dal.csproj",
         "projectName": "Dal",
-        "projectPath": "H:\\Project\\WayToTheWedding\\Dal\\Dal.csproj",
+        "projectPath": "C:\\Users\\נלנגר חיה שרה\\Desktop\\Project\\WayToTheWedding\\Dal\\Dal.csproj",
         "packagesPath": "C:\\Users\\נלנגר חיה שרה\\.nuget\\packages\\",
-        "outputPath": "H:\\Project\\WayToTheWedding\\Dal\\obj\\",
+        "outputPath": "C:\\Users\\נלנגר חיה שרה\\Desktop\\Project\\WayToTheWedding\\Dal\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

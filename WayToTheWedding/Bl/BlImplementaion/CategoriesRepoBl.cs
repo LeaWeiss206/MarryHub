@@ -1,5 +1,6 @@
 ﻿
 using Bl.Bo;
+using Dal;
 using Dal.DalApi;
 using System;
 using System.Collections.Generic;
@@ -9,18 +10,18 @@ using System.Threading.Tasks;
 
 namespace Bl.BlImplementaion
 {
-    public class CategoryRepo : Bl.BlApi.ICategoriesRepo
+    public class CategoriesRepoBl : Bl.BlApi.ICategoriesRepo
     {
-        ICategoriesRepo iCategoriesRepo;
-        public CategoryRepo(ICategoriesRepo iCategoriesRepo)
+        ICategoriesRepo CategoriesRepo;
+        public CategoriesRepoBl(DalManager dalManager)
         {
-            this.iCategoriesRepo = iCategoriesRepo;
+         CategoriesRepo = dalManager.CategoriesRepo;
         }
         public List<Category> GetAll()
         {
             List<Category> list = new List<Category>();
 
-            foreach(var c in iCategoriesRepo.GetAll())
+            foreach(var c in CategoriesRepo.GetAll())
             {
                 Category c2 = new Category();
                 c2.Name = c.Name;
