@@ -10,26 +10,31 @@ namespace Dal.DalImplementation
 {
     public class CategoriesRepo : ICategoriesRepo
     {
-
+        SiteContext siteContext;
+        public CategoriesRepo(SiteContext siteContext)
+        {
+            this.siteContext = siteContext;
+        }
         public List<Category> GetAll()
         {
-            throw new NotImplementedException();
+            return siteContext.Categories.ToList();
         }
 
         public Category Create(Category item)
         {
-            throw new NotImplementedException();
+            siteContext.Categories.Add(item);
+            siteContext.SaveChanges();
+            return item;
         }
-
-        public Category Delete(Category item)
-        {
-            throw new NotImplementedException();
-        }
-
-
         public Category Update(int Id, Category item)
         {
             throw new NotImplementedException();
+        }
+        public Category Delete(Category item)
+        {
+            siteContext.Categories.Remove(item);
+            siteContext.SaveChanges();
+            return item;
         }
     }
 }
