@@ -9,18 +9,18 @@ namespace Api.Controllers;
 [ApiController]
 public class CategoriesController
 {
-    ICitiesRepo iCitiesRepo;
+    ICategoriesRepo icategoriesRepo;
 
-    public CategoriesController(ICitiesRepo iCitiesRepo)
+    public CategoriesController(ICategoriesRepo icategoriesRepo)
     {
 
-        this.iCitiesRepo = iCitiesRepo;
+      this.icategoriesRepo = icategoriesRepo;
 
     }
    [HttpGet]
     public ActionResult<List<Category>> GetAll()
     {
-        return iCitiesRepo.GetAll();
+        return icategoriesRepo.GetAll();
     }
 
 }

@@ -16,7 +16,10 @@ string connStr = db.GetConnectionString("SiteDB");
 builder.Services.AddDbContext<SiteContext>(opt => opt.UseSqlServer(connStr));
 
 builder.Services.AddScoped<ICitiesRepo, CitiesRepoBl>();
+builder.Services.AddScoped<ICategoriesRepo,CategoryRepo>();
 builder.Services.AddScoped<Dal.DalApi.ICitiesRepo, Dal.DalImplementation.CitiesRepo>();
+builder.Services.AddScoped<Dal.DalApi.ICategoriesRepo, Dal.DalImplementation.CategoriesRepo>();
+
 
 var app = builder.Build();
 

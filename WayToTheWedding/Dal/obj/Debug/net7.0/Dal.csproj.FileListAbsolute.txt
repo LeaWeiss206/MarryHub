@@ -12,3 +12,17 @@ C:\Users\וייס לאה.MBJCOMP\Desktop\Project\WayToTheWedding\Dal\obj\Debug\n
 C:\Users\וייס לאה.MBJCOMP\Desktop\Project\WayToTheWedding\Dal\obj\Debug\net7.0\Dal.pdb
 C:\Users\וייס לאה.MBJCOMP\Desktop\Project\WayToTheWedding\Dal\obj\Debug\net7.0\Dal.genruntimeconfig.cache
 C:\Users\וייס לאה.MBJCOMP\Desktop\Project\WayToTheWedding\Dal\obj\Debug\net7.0\ref\Dal.dll
+C:\Users\וייס לאה\Desktop\Project\WayToTheWedding\Dal\bin\Debug\net7.0\Dal.deps.json
+C:\Users\וייס לאה\Desktop\Project\WayToTheWedding\Dal\bin\Debug\net7.0\Dal.runtimeconfig.json
+C:\Users\וייס לאה\Desktop\Project\WayToTheWedding\Dal\bin\Debug\net7.0\Dal.dll
+C:\Users\וייס לאה\Desktop\Project\WayToTheWedding\Dal\bin\Debug\net7.0\Dal.pdb
+C:\Users\וייס לאה\Desktop\Project\WayToTheWedding\Dal\obj\Debug\net7.0\Dal.csproj.AssemblyReference.cache
+C:\Users\וייס לאה\Desktop\Project\WayToTheWedding\Dal\obj\Debug\net7.0\Dal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\וייס לאה\Desktop\Project\WayToTheWedding\Dal\obj\Debug\net7.0\Dal.AssemblyInfoInputs.cache
+C:\Users\וייס לאה\Desktop\Project\WayToTheWedding\Dal\obj\Debug\net7.0\Dal.AssemblyInfo.cs
+C:\Users\וייס לאה\Desktop\Project\WayToTheWedding\Dal\obj\Debug\net7.0\Dal.csproj.CoreCompileInputs.cache
+C:\Users\וייס לאה\Desktop\Project\WayToTheWedding\Dal\obj\Debug\net7.0\Dal.dll
+C:\Users\וייס לאה\Desktop\Project\WayToTheWedding\Dal\obj\Debug\net7.0\refint\Dal.dll
+C:\Users\וייס לאה\Desktop\Project\WayToTheWedding\Dal\obj\Debug\net7.0\Dal.pdb
+C:\Users\וייס לאה\Desktop\Project\WayToTheWedding\Dal\obj\Debug\net7.0\Dal.genruntimeconfig.cache
+C:\Users\וייס לאה\Desktop\Project\WayToTheWedding\Dal\obj\Debug\net7.0\ref\Dal.dll
