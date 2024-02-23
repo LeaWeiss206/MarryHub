@@ -12,7 +12,7 @@ public class CategoriesController
 {
     ICategoriesRepo categoriesRepo;
 
-    public CategoriesController(BlManager blManager)
+    public CategoriesController(BlManager  blManager)
     {
 
       categoriesRepo = blManager.CategoriesRepo;

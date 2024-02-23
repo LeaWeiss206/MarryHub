@@ -40,3 +40,17 @@ C:\Users\נלנגר חיה שרה\Desktop\Project\WayToTheWedding\Dal\obj\Debug\
 C:\Users\נלנגר חיה שרה\Desktop\Project\WayToTheWedding\Dal\obj\Debug\net7.0\Dal.pdb
 C:\Users\נלנגר חיה שרה\Desktop\Project\WayToTheWedding\Dal\obj\Debug\net7.0\Dal.genruntimeconfig.cache
 C:\Users\נלנגר חיה שרה\Desktop\Project\WayToTheWedding\Dal\obj\Debug\net7.0\ref\Dal.dll
+D:\Project\WayToTheWedding\Dal\bin\Debug\net7.0\Dal.deps.json
+D:\Project\WayToTheWedding\Dal\bin\Debug\net7.0\Dal.runtimeconfig.json
+D:\Project\WayToTheWedding\Dal\bin\Debug\net7.0\Dal.dll
+D:\Project\WayToTheWedding\Dal\bin\Debug\net7.0\Dal.pdb
+D:\Project\WayToTheWedding\Dal\obj\Debug\net7.0\Dal.csproj.AssemblyReference.cache
+D:\Project\WayToTheWedding\Dal\obj\Debug\net7.0\Dal.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\WayToTheWedding\Dal\obj\Debug\net7.0\Dal.AssemblyInfoInputs.cache
+D:\Project\WayToTheWedding\Dal\obj\Debug\net7.0\Dal.AssemblyInfo.cs
+D:\Project\WayToTheWedding\Dal\obj\Debug\net7.0\Dal.csproj.CoreCompileInputs.cache
+D:\Project\WayToTheWedding\Dal\obj\Debug\net7.0\Dal.dll
+D:\Project\WayToTheWedding\Dal\obj\Debug\net7.0\refint\Dal.dll
+D:\Project\WayToTheWedding\Dal\obj\Debug\net7.0\Dal.pdb
+D:\Project\WayToTheWedding\Dal\obj\Debug\net7.0\Dal.genruntimeconfig.cache
+D:\Project\WayToTheWedding\Dal\obj\Debug\net7.0\ref\Dal.dll

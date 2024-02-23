@@ -10,7 +10,10 @@ public partial class SiteContext : DbContext
         : base(options)
     {
     }
-
+    public SiteContext()
+    {
+            
+    }
     public virtual DbSet<Business> Businesses { get; set; }
 
     public virtual DbSet<Category> Categories { get; set; }

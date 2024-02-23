@@ -43,3 +43,18 @@ C:\Users\נלנגר חיה שרה\Desktop\Project\WayToTheWedding\Bl\obj\Debug\n
 C:\Users\נלנגר חיה שרה\Desktop\Project\WayToTheWedding\Bl\obj\Debug\net7.0\refint\Bl.dll
 C:\Users\נלנגר חיה שרה\Desktop\Project\WayToTheWedding\Bl\obj\Debug\net7.0\Bl.pdb
 C:\Users\נלנגר חיה שרה\Desktop\Project\WayToTheWedding\Bl\obj\Debug\net7.0\ref\Bl.dll
+D:\Project\WayToTheWedding\Bl\bin\Debug\net7.0\Bl.deps.json
+D:\Project\WayToTheWedding\Bl\bin\Debug\net7.0\Bl.dll
+D:\Project\WayToTheWedding\Bl\bin\Debug\net7.0\Bl.pdb
+D:\Project\WayToTheWedding\Bl\bin\Debug\net7.0\Dal.dll
+D:\Project\WayToTheWedding\Bl\bin\Debug\net7.0\Dal.pdb
+D:\Project\WayToTheWedding\Bl\obj\Debug\net7.0\Bl.csproj.AssemblyReference.cache
+D:\Project\WayToTheWedding\Bl\obj\Debug\net7.0\Bl.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\WayToTheWedding\Bl\obj\Debug\net7.0\Bl.AssemblyInfoInputs.cache
+D:\Project\WayToTheWedding\Bl\obj\Debug\net7.0\Bl.AssemblyInfo.cs
+D:\Project\WayToTheWedding\Bl\obj\Debug\net7.0\Bl.csproj.CoreCompileInputs.cache
+D:\Project\WayToTheWedding\Bl\obj\Debug\net7.0\Bl.csproj.CopyComplete
+D:\Project\WayToTheWedding\Bl\obj\Debug\net7.0\Bl.dll
+D:\Project\WayToTheWedding\Bl\obj\Debug\net7.0\refint\Bl.dll
+D:\Project\WayToTheWedding\Bl\obj\Debug\net7.0\Bl.pdb
+D:\Project\WayToTheWedding\Bl\obj\Debug\net7.0\ref\Bl.dll
