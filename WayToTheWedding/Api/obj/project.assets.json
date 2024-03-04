@@ -1905,7 +1905,6 @@
       "path": "microsoft.netcore.targets/1.1.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -2219,7 +2218,6 @@
       "path": "system.runtime/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -2602,7 +2600,6 @@
       "path": "system.text.encoding/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -2890,11 +2887,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\Project\\WayToTheWedding\\Api\\Api.csproj",
+      "projectUniqueName": "D:\\Project\\WayToTheWedding\\Api\\Api.csproj",
       "projectName": "Api",
-      "projectPath": "H:\\Project\\WayToTheWedding\\Api\\Api.csproj",
+      "projectPath": "D:\\Project\\WayToTheWedding\\Api\\Api.csproj",
       "packagesPath": "C:\\Users\\נלנגר חיה שרה\\.nuget\\packages\\",
-      "outputPath": "H:\\Project\\WayToTheWedding\\Api\\obj\\",
+      "outputPath": "D:\\Project\\WayToTheWedding\\Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -2917,8 +2914,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "H:\\Project\\WayToTheWedding\\Bl\\Bl.csproj": {
-              "projectPath": "H:\\Project\\WayToTheWedding\\Bl\\Bl.csproj"
+            "D:\\Project\\WayToTheWedding\\Bl\\Bl.csproj": {
+              "projectPath": "D:\\Project\\WayToTheWedding\\Bl\\Bl.csproj"
             }
           }
         }

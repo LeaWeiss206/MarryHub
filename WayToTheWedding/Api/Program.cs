@@ -13,9 +13,7 @@ builder.Services.AddControllers();
 
 builder.Services.AddSingleton<BlManager>();
 
-DBActions db = new DBActions(builder.Configuration);
-string connStr = db.GetConnectionString("SiteDB");
-builder.Services.AddDbContext<SiteContext>(opt => opt.UseSqlServer(connStr));
+
 
 //builder.Services.AddScoped<ICitiesRepo, CitiesRepoBl>();
 //builder.Services.AddScoped<ICategoriesRepo,CategoryRepo>();

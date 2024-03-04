@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Kx1Ezn3/EPbji0vsrcvy9NG4y3pfjE4Vy4/PXRf5ZXA3fOgQPwgzxqWHHgVQVdl3XTfO0ammVw4rg4B3yofwfQ==",
+  "dgSpecHash": "AiF6pCSHnciZUYAPP3o90diwksC5U14eD7siIJ6Q9lfaDFmphFA6jBWe9DI4U0T8beUYJD+FtMUJY8jaaWUz2A==",
   "success": true,
-  "projectFilePath": "H:\\Project\\WayToTheWedding\\Dal\\Dal.csproj",
+  "projectFilePath": "D:\\Project\\WayToTheWedding\\Dal\\Dal.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\נלנגר חיה שרה\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\נלנגר חיה שרה\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
