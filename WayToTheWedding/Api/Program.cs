@@ -1,11 +1,13 @@
+using Api;
 using Bl;
 
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
-
-builder.Services.AddSingleton<BlManager>();
+DBActions db = new DBActions(builder.Configuration);
+string connStr = db.GetConnectionString("SiteDB");
+builder.Services.AddSingleton<BlManager>(x=> new BlManager(connStr));
 
 
 
