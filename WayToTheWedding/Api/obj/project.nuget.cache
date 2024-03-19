@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "hXbkIFxcf6LIaFEDmxuO9rBquXxTwE+Ddl/GsREeg7YL5HM/r89C9pAQTfKlLT5TTS86VeUegy3Zj7KywH+XMg==",
+  "dgSpecHash": "+W8YxlvJdKKpJ7rcJwH50YQXNyTW/PaJLsR5JyOCmU8SM2ldxZw3Pz2pKoob+9WGlrf99BirQKslMYi25/59eQ==",
   "success": true,
   "projectFilePath": "D:\\Project\\WayToTheWedding\\Api\\Api.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\וייס לאה\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\וייס לאה\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\וייס לאה\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\וייס לאה\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

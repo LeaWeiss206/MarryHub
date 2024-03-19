@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "6mF7a0HLYo8brCKAK6sv57L8PYQIH17svJo5Us+59Ef7/lcnDsu2OjSqa/cmRL9XtTQ1T1WyLSLbv2NbvKCMSQ==",
+  "dgSpecHash": "wZqIovOLZoTP/bkIqQ3bwjY8AM2vV9CejPLLQKT9YBxuC9jwuWwBEHa4UJfzWoMtN6jROJw1KnyevX7oQkoQlQ==",
   "success": true,
   "projectFilePath": "D:\\Project\\WayToTheWedding\\Bl\\Bl.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\וייס לאה\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\וייס לאה\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\וייס לאה\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\וייס לאה\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

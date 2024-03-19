@@ -368,3 +368,4 @@ H:\Project\WayToTheWedding\Api\bin\Debug\net7.0\Dal.dll
 H:\Project\WayToTheWedding\Api\bin\Debug\net7.0\Bl.pdb
 H:\Project\WayToTheWedding\Api\bin\Debug\net7.0\Dal.pdb
 H:\Project\WayToTheWedding\Api\obj\Debug\net7.0\Api.csproj.AssemblyReference.cache
+D:\Project\WayToTheWedding\Api\bin\Debug\net7.0\AutoMapper.dll

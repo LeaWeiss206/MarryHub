@@ -24,7 +24,7 @@ public class BlManager
         Services.AddSingleton<DalManager>(x=> new DalManager(connStr));
         Services.AddScoped<ICitiesRepo, CitiesRepoBl>();
         Services.AddScoped<ICategoriesRepo, CategoriesRepoBl>();
-
+        Services.AddAutoMapper(typeof(Profiles.AutoMapperProfile));
         ServiceProvider provider = Services.BuildServiceProvider();  // מנהל את האוסף, כאשר משהו מבקש אוביקט הוא אחראי לתת
 
         CategoriesRepo = provider.GetRequiredService<ICategoriesRepo>();

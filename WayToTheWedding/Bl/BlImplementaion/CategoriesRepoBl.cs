@@ -1,4 +1,5 @@
 ﻿
+using AutoMapper;
 using Bl.Bo;
 using Dal;
 using Dal.DalApi;
@@ -13,21 +14,24 @@ namespace Bl.BlImplementaion
     public class CategoriesRepoBl : Bl.BlApi.ICategoriesRepo
     {
         ICategoriesRepo CategoriesRepo;
-        public CategoriesRepoBl(DalManager dalManager)
+        IMapper map;
+        public CategoriesRepoBl(DalManager dalManager, IMapper map)
         {
-         CategoriesRepo = dalManager.CategoriesRepo;
+            CategoriesRepo = dalManager.CategoriesRepo;
+            this.map = map;
         }
         public List<Category> GetAll()
         {
             List<Category> list = new List<Category>();
-
-            foreach(var c in CategoriesRepo.GetAll())
-            {
-                Category c2 = new Category();
-                c2.Name = c.Name;
-                c2.Id = c.Id;
-                list.Add(c2);
-            }
+            var data = CategoriesRepo.GetAll();
+            data.ForEach(sin => list.Add(map.Map<Category>(sin)));
+            //foreach(var c in CategoriesRepo.GetAll())
+            //{
+            //    Category c2 = new Category();
+            //    c2.Name = c.Name;
+            //    c2.Id = c.Id;
+            //    list.Add(c2);
+            //}
             return list;
         }
 
@@ -41,7 +45,7 @@ namespace Bl.BlImplementaion
             throw new NotImplementedException();
         }
 
-        
+
 
         public Category Update(int Id, Category item)
         {
