@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Bl.BlApi
 {
-    internal interface IBusinessRepo:Icrud<Business>
+    public interface IBusinessRepo:Icrud<Business>
     {
     }
 }

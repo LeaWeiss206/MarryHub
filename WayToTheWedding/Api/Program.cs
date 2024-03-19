@@ -1,11 +1,5 @@
 using Bl;
-using Bl.BlApi;
-using Bl.BlImplementaion;
-using Dal;
-using Dal.DalImplementation;
-using Dal.Models;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Logging;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
