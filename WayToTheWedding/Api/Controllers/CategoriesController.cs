@@ -1,4 +1,5 @@
-﻿using Bl.BlApi;
+﻿using Bl;
+using Bl.BlApi;
 using Bl.Bo;
 using Microsoft.AspNetCore.Mvc;
 
@@ -9,18 +10,18 @@ namespace Api.Controllers;
 [ApiController]
 public class CategoriesController
 {
-    ICategoriesRepo icategoriesRepo;
+    ICategoriesRepo categoriesRepo;
 
-    public CategoriesController(ICategoriesRepo icategoriesRepo)
+    public CategoriesController(BlManager  blManager)
     {
 
-      this.icategoriesRepo = icategoriesRepo;
+      categoriesRepo = blManager.CategoriesRepo;
 
     }
    [HttpGet]
     public ActionResult<List<Category>> GetAll()
     {
-        return icategoriesRepo.GetAll();
+        return categoriesRepo.GetAll();
     }
 
 }

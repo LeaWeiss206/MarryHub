@@ -29,8 +29,5 @@ public class BlManager
 
         CategoriesRepo = provider.GetRequiredService<ICategoriesRepo>();
         CitiesRepo = provider.GetRequiredService<ICitiesRepo>();
-
-
-
     }
 }

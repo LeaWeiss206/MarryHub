@@ -1,4 +1,5 @@
 ﻿using Bl.Bo;
+using Dal;
 using Dal.DalApi;
 using Dal.DalImplementation;
 //using Dal.Models;
@@ -13,16 +14,16 @@ namespace Bl.BlImplementaion
 {
     public class CitiesRepoBl : Bl.BlApi.ICitiesRepo
     {
-        ICitiesRepo iCitiesRepo;
-        public CitiesRepoBl(ICitiesRepo iCitiesRepo)
+        ICitiesRepo CitiesRepo;
+        public CitiesRepoBl(DalManager dalManager)
         {
-            this.iCitiesRepo = iCitiesRepo;
+            CitiesRepo = dalManager.CitiesRepo;
         }
 
         public List<City> GetAll()
         {
             List<City> list = new List<City>();
-            foreach (var c in iCitiesRepo.GetAll())
+            foreach (var c in CitiesRepo.GetAll())
             {
                 City city = new();
                 city.Id = c.Id;

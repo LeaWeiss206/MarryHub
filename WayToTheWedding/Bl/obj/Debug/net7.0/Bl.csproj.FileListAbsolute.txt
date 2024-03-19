@@ -28,3 +28,48 @@ C:\Users\וייס לאה\Desktop\Project\WayToTheWedding\Bl\obj\Debug\net7.0\Bl.
 C:\Users\וייס לאה\Desktop\Project\WayToTheWedding\Bl\obj\Debug\net7.0\refint\Bl.dll
 C:\Users\וייס לאה\Desktop\Project\WayToTheWedding\Bl\obj\Debug\net7.0\Bl.pdb
 C:\Users\וייס לאה\Desktop\Project\WayToTheWedding\Bl\obj\Debug\net7.0\ref\Bl.dll
+C:\Users\נלנגר חיה שרה\Desktop\Project\WayToTheWedding\Bl\bin\Debug\net7.0\Bl.deps.json
+C:\Users\נלנגר חיה שרה\Desktop\Project\WayToTheWedding\Bl\bin\Debug\net7.0\Bl.dll
+C:\Users\נלנגר חיה שרה\Desktop\Project\WayToTheWedding\Bl\bin\Debug\net7.0\Bl.pdb
+C:\Users\נלנגר חיה שרה\Desktop\Project\WayToTheWedding\Bl\bin\Debug\net7.0\Dal.dll
+C:\Users\נלנגר חיה שרה\Desktop\Project\WayToTheWedding\Bl\bin\Debug\net7.0\Dal.pdb
+C:\Users\נלנגר חיה שרה\Desktop\Project\WayToTheWedding\Bl\obj\Debug\net7.0\Bl.csproj.AssemblyReference.cache
+C:\Users\נלנגר חיה שרה\Desktop\Project\WayToTheWedding\Bl\obj\Debug\net7.0\Bl.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\נלנגר חיה שרה\Desktop\Project\WayToTheWedding\Bl\obj\Debug\net7.0\Bl.AssemblyInfoInputs.cache
+C:\Users\נלנגר חיה שרה\Desktop\Project\WayToTheWedding\Bl\obj\Debug\net7.0\Bl.AssemblyInfo.cs
+C:\Users\נלנגר חיה שרה\Desktop\Project\WayToTheWedding\Bl\obj\Debug\net7.0\Bl.csproj.CoreCompileInputs.cache
+C:\Users\נלנגר חיה שרה\Desktop\Project\WayToTheWedding\Bl\obj\Debug\net7.0\Bl.csproj.CopyComplete
+C:\Users\נלנגר חיה שרה\Desktop\Project\WayToTheWedding\Bl\obj\Debug\net7.0\Bl.dll
+C:\Users\נלנגר חיה שרה\Desktop\Project\WayToTheWedding\Bl\obj\Debug\net7.0\refint\Bl.dll
+C:\Users\נלנגר חיה שרה\Desktop\Project\WayToTheWedding\Bl\obj\Debug\net7.0\Bl.pdb
+C:\Users\נלנגר חיה שרה\Desktop\Project\WayToTheWedding\Bl\obj\Debug\net7.0\ref\Bl.dll
+D:\Project\WayToTheWedding\Bl\bin\Debug\net7.0\Bl.deps.json
+D:\Project\WayToTheWedding\Bl\bin\Debug\net7.0\Bl.dll
+D:\Project\WayToTheWedding\Bl\bin\Debug\net7.0\Bl.pdb
+D:\Project\WayToTheWedding\Bl\bin\Debug\net7.0\Dal.dll
+D:\Project\WayToTheWedding\Bl\bin\Debug\net7.0\Dal.pdb
+D:\Project\WayToTheWedding\Bl\obj\Debug\net7.0\Bl.csproj.AssemblyReference.cache
+D:\Project\WayToTheWedding\Bl\obj\Debug\net7.0\Bl.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\WayToTheWedding\Bl\obj\Debug\net7.0\Bl.AssemblyInfoInputs.cache
+D:\Project\WayToTheWedding\Bl\obj\Debug\net7.0\Bl.AssemblyInfo.cs
+D:\Project\WayToTheWedding\Bl\obj\Debug\net7.0\Bl.csproj.CoreCompileInputs.cache
+D:\Project\WayToTheWedding\Bl\obj\Debug\net7.0\Bl.csproj.CopyComplete
+D:\Project\WayToTheWedding\Bl\obj\Debug\net7.0\Bl.dll
+D:\Project\WayToTheWedding\Bl\obj\Debug\net7.0\refint\Bl.dll
+D:\Project\WayToTheWedding\Bl\obj\Debug\net7.0\Bl.pdb
+D:\Project\WayToTheWedding\Bl\obj\Debug\net7.0\ref\Bl.dll
+H:\Project\WayToTheWedding\Bl\bin\Debug\net7.0\Bl.deps.json
+H:\Project\WayToTheWedding\Bl\bin\Debug\net7.0\Bl.dll
+H:\Project\WayToTheWedding\Bl\bin\Debug\net7.0\Bl.pdb
+H:\Project\WayToTheWedding\Bl\bin\Debug\net7.0\Dal.dll
+H:\Project\WayToTheWedding\Bl\bin\Debug\net7.0\Dal.pdb
+H:\Project\WayToTheWedding\Bl\obj\Debug\net7.0\Bl.csproj.AssemblyReference.cache
+H:\Project\WayToTheWedding\Bl\obj\Debug\net7.0\Bl.GeneratedMSBuildEditorConfig.editorconfig
+H:\Project\WayToTheWedding\Bl\obj\Debug\net7.0\Bl.AssemblyInfoInputs.cache
+H:\Project\WayToTheWedding\Bl\obj\Debug\net7.0\Bl.AssemblyInfo.cs
+H:\Project\WayToTheWedding\Bl\obj\Debug\net7.0\Bl.csproj.CoreCompileInputs.cache
+H:\Project\WayToTheWedding\Bl\obj\Debug\net7.0\Bl.csproj.CopyComplete
+H:\Project\WayToTheWedding\Bl\obj\Debug\net7.0\Bl.dll
+H:\Project\WayToTheWedding\Bl\obj\Debug\net7.0\refint\Bl.dll
+H:\Project\WayToTheWedding\Bl\obj\Debug\net7.0\Bl.pdb
+H:\Project\WayToTheWedding\Bl\obj\Debug\net7.0\ref\Bl.dll

@@ -9,13 +9,13 @@ public partial class HousingUnit
 
     public int CityId { get; set; }
 
-    public string PhoneNum { get; set; } = null!;
+    public string PhoneNum { get; set; }
 
-    public string Adress { get; set; } = null!;
+    public string Adress { get; set; }
 
     public int Mr { get; set; }
 
-    public string Name { get; set; } = null!;
+    public string Name { get; set; }
 
-    public virtual City City { get; set; } = null!;
+    public virtual City City { get; set; }
 }

@@ -23,9 +23,13 @@ public class DalManager
         Services.AddScoped<ICitiesRepo, CitiesRepo>();
         Services.AddScoped<ICategoriesRepo,CategoriesRepo>();
 
-        ServiceProvider provider = Services.BuildServiceProvider();  // מנהל את האוסף, כאשר משהו מבקש אוביקט הוא אחראי לתת
+       // DBActions db = new DBActions(Configuration);
+       //string connStr = db.GetConnectionString("SiteDB");
+       //builder.Services.AddDbContext<SiteContext>(opt => opt.UseSqlServer(connStr));
 
-        CategoriesRepo = provider.GetRequiredService<ICategoriesRepo>();
-        CitiesRepo = provider.GetRequiredService<ICitiesRepo>();
+        ServiceProvider provider = Services.BuildServiceProvider(); 
+
+      CategoriesRepo = provider.GetRequiredService<ICategoriesRepo>();
+     CitiesRepo = provider.GetRequiredService<ICitiesRepo>();
     }
-}
+}  
