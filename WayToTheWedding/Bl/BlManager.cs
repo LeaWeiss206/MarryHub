@@ -17,11 +17,11 @@ public class BlManager
     public ICitiesRepo CitiesRepo { get; set; }
     public ICategoriesRepo CategoriesRepo { get; set; }
 
-    public BlManager()
+    public BlManager(string connStr)
     {
         ServiceCollection Services = new ServiceCollection();
 
-        Services.AddSingleton<DalManager>();
+        Services.AddSingleton<DalManager>(x=> new DalManager(connStr));
         Services.AddScoped<ICitiesRepo, CitiesRepoBl>();
         Services.AddScoped<ICategoriesRepo, CategoriesRepoBl>();
 
