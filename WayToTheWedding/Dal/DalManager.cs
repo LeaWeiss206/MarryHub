@@ -24,8 +24,8 @@ public class DalManager
         Services.AddScoped<ICitiesRepo, CitiesRepo>();
         Services.AddScoped<ICategoriesRepo,CategoriesRepo>();
 
-       
-       Services.AddDbContext<SiteContext>(opt => opt.UseSqlServer(connStr));
+
+        Services.AddDbContext<SiteContext>(opt => opt.UseSqlServer(connStr));
 
         ServiceProvider provider = Services.BuildServiceProvider(); 
 
