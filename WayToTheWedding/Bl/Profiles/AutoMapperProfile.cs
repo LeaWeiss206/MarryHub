@@ -14,8 +14,8 @@ namespace Bl.Profiles
     {
         public AutoMapperProfile()
         {
-            CreateMap<Bo.Category, Dal.Models.Category>().ForMember(dest => dest.Id, source => source.MapFrom(src => src.Id))
-                .ForMember(dest => dest.Name, source => source.MapFrom(src => src.Name));
+            CreateMap<Bo.Category, Dal.Models.Category>()
+                .ReverseMap();
         }
 
     }
