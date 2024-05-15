@@ -22,14 +22,13 @@ public class DalManager
 
         Services.AddSingleton<SiteContext>();
         Services.AddScoped<ICitiesRepo, CitiesRepo>();
-        Services.AddScoped<ICategoriesRepo,CategoriesRepo>();
-
+        Services.AddScoped<ICategoriesRepo, CategoriesRepo>();
 
         Services.AddDbContext<SiteContext>(opt => opt.UseSqlServer(connStr));
 
-        ServiceProvider provider = Services.BuildServiceProvider(); 
+        ServiceProvider provider = Services.BuildServiceProvider();
 
-      CategoriesRepo = provider.GetRequiredService<ICategoriesRepo>();
-     CitiesRepo = provider.GetRequiredService<ICitiesRepo>();
+        CategoriesRepo = provider.GetRequiredService<ICategoriesRepo>();
+        CitiesRepo = provider.GetRequiredService<ICitiesRepo>();
     }
-}  
+}

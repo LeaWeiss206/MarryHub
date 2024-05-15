@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "DKidQ0K0YVVPTKSulHfKddccxiWmbFMpGj9Ct72rvnyEGgT/hZL1xHjk2Pka1YmopmJElpc2bBToQXPL+u96CQ==",
+  "dgSpecHash": "rejCLiUNqn0A3RDHjqcCALApQvAhNuO4dsE+9AS/DsXwk+wRNHkNdDK+vfhAjnC+RNDlaQ1HCU7puAT4vljoSg==",
   "success": true,
   "projectFilePath": "H:\\Project\\WayToTheWedding\\Bl\\Bl.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\נלנגר חיה שרה\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\נלנגר חיה שרה\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\נלנגר חיה שרה\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\נלנגר חיה שרה\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
@@ -59,5 +60,12 @@
     "C:\\Users\\נלנגר חיה שרה\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\נלנגר חיה שרה\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file H:\\Project\\WayToTheWedding\\Bl\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
