@@ -1,5 +1,4 @@
-﻿
-using AutoMapper;
+﻿using AutoMapper;
 using Bl.Bo;
 using Dal;
 using Dal.DalApi;
@@ -19,6 +18,7 @@ namespace Bl.BlImplementaion
         {
             CategoriesRepo = dalManager.CategoriesRepo;
             this.map = map;
+
             //  var config = new MapperConfiguration(cfg => cfg.AddProfile<AutoMapper.AutoMapperProfile>());
              //map = config.CreateMapper();
              // map.ConfigurationProvider(map.ConfigurationProvider);

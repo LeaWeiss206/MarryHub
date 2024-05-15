@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+CUdYgL5sTl64QrvfECop9RQVvrwDfc07QMhdlRSdXj+fzXMVkzx6zBmcnVai4dZKzU0/Y4NBwE3HoGDrFpzcQ==",
+  "dgSpecHash": "vYP+PMogJGiJ720IUH+iL7KzdzDMwmNWYwYB01uu7W2Gsb1Af0ZuJ/7J872/qfiuLyNZvHSilYJ30jLNzoCotQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\וייס לאה\\Desktop\\Project\\WayToTheWedding\\Bl\\Bl.csproj",
   "expectedPackageFiles": [
@@ -60,12 +60,5 @@
     "C:\\Users\\וייס לאה\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\וייס לאה\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\וייס לאה\\Desktop\\Project\\WayToTheWedding\\Bl\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }
