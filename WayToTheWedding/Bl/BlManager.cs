@@ -17,6 +17,8 @@ public class BlManager
     public ICitiesRepo CitiesRepo { get; set; }
     public ICategoriesRepo CategoriesRepo { get; set; }
 
+    public IBusinessRepo BusinessRepo { get; set; }
+
     public BlManager(string connStr)
     {
         ServiceCollection Services = new ServiceCollection();
@@ -25,11 +27,12 @@ public class BlManager
         Services.AddSingleton<DalManager>(x=> new DalManager(connStr));
         Services.AddScoped<ICitiesRepo, CitiesRepoBl>();
         Services.AddScoped<ICategoriesRepo, CategoriesRepoBl>();
-        
+        Services.AddScoped<IBusinessRepo, BusinessRepoBl>();
 
         ServiceProvider provider = Services.BuildServiceProvider(); 
 
         CategoriesRepo = provider.GetRequiredService<ICategoriesRepo>();
         CitiesRepo = provider.GetRequiredService<ICitiesRepo>();
+        BusinessRepo = provider.GetRequiredService<IBusinessRepo>();
     }
 }

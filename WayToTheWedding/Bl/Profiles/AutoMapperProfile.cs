@@ -16,6 +16,11 @@ namespace Bl.Profiles
         {
             CreateMap<Bo.Category, Dal.Models.Category>()
                 .ReverseMap();
+            CreateMap<Bo.City, Dal.Models.City>()
+               .ReverseMap();
+            CreateMap<Bo.Business, Dal.Models.Business>()
+                .ReverseMap();
+
 
         }
 

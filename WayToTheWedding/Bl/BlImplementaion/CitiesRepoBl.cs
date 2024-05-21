@@ -1,4 +1,5 @@
-﻿using Bl.Bo;
+﻿using AutoMapper;
+using Bl.Bo;
 using Dal;
 using Dal.DalApi;
 using Dal.DalImplementation;
@@ -15,21 +16,18 @@ namespace Bl.BlImplementaion
     public class CitiesRepoBl : Bl.BlApi.ICitiesRepo
     {
         ICitiesRepo CitiesRepo;
-        public CitiesRepoBl(DalManager dalManager)
+        IMapper map;
+        public CitiesRepoBl(DalManager dalManager, IMapper map)
         {
             CitiesRepo = dalManager.CitiesRepo;
+            this.map = map;
         }
 
         public List<City> GetAll()
         {
             List<City> list = new List<City>();
-            foreach (var c in CitiesRepo.GetAll())
-            {
-                City city = new();
-                city.Id = c.Id;
-                city.Name = c.Name;
-                list.Add(city); 
-            }
+            var data = CitiesRepo.GetAll();
+            data.ForEach(sin => list.Add(map.Map<Bl.Bo.City>(sin)));
             return list;
         }
 

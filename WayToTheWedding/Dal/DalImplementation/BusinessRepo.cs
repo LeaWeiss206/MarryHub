@@ -10,6 +10,15 @@ namespace Dal.DalImplementation
 {
     public class BusinessRepo : IBusinessRepo
     {
+        SiteContext siteContext;
+        public BusinessRepo(SiteContext siteContext)
+        {
+            this.siteContext = siteContext;
+        }
+        public List<Business> GetAll()
+        {
+            return siteContext.Businesses.ToList();
+        }
         public Business Create(Business item)
         {
             throw new NotImplementedException();
@@ -20,10 +29,7 @@ namespace Dal.DalImplementation
             throw new NotImplementedException();
         }
 
-        public List<Business> GetAll()
-        {
-            throw new NotImplementedException();
-        }
+       
 
         public Business Update(int Id, Business item)
         {
