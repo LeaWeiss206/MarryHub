@@ -19,12 +19,15 @@ namespace Bl.BlImplementaion
         {
             CategoriesRepo = dalManager.CategoriesRepo;
             this.map = map;
+            //  var config = new MapperConfiguration(cfg => cfg.AddProfile<AutoMapper.AutoMapperProfile>());
+             //map = config.CreateMapper();
+             // map.ConfigurationProvider(map.ConfigurationProvider);
         }
         public List<Category> GetAll()
         {
             List<Category> list = new List<Category>();
             var data = CategoriesRepo.GetAll();
-            data.ForEach(sin => list.Add(map.Map<Category>(sin)));
+            data.ForEach(sin => list.Add(map.Map<Bl.Bo.Category>(sin)));
             //foreach(var c in CategoriesRepo.GetAll())
             //{
             //    Category c2 = new Category();

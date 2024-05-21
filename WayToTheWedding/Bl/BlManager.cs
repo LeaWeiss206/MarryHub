@@ -21,11 +21,13 @@ public class BlManager
     {
         ServiceCollection Services = new ServiceCollection();
 
+        Services.AddAutoMapper(typeof(Profiles.AutoMapperProfile));
         Services.AddSingleton<DalManager>(x=> new DalManager(connStr));
         Services.AddScoped<ICitiesRepo, CitiesRepoBl>();
         Services.AddScoped<ICategoriesRepo, CategoriesRepoBl>();
-        Services.AddAutoMapper(typeof(Profiles.AutoMapperProfile));
-        ServiceProvider provider = Services.BuildServiceProvider();  // מנהל את האוסף, כאשר משהו מבקש אוביקט הוא אחראי לתת
+        
+
+        ServiceProvider provider = Services.BuildServiceProvider(); 
 
         CategoriesRepo = provider.GetRequiredService<ICategoriesRepo>();
         CitiesRepo = provider.GetRequiredService<ICitiesRepo>();
