@@ -16,6 +16,8 @@ public class DalManager
     public ICategoriesRepo CategoriesRepo { get; set; }
     public ICitiesRepo CitiesRepo { get; set; }
     public IBusinessRepo BusinessRepo { get; set; }
+    public IHousingUnitsRepo HousingUnitRepo { get; set; }
+
     public DalManager(string connStr)
     {
         ServiceCollection Services = new ServiceCollection();
@@ -24,6 +26,8 @@ public class DalManager
         Services.AddScoped<ICitiesRepo, CitiesRepo>();
         Services.AddScoped<ICategoriesRepo, CategoriesRepo>();
         Services.AddScoped<IBusinessRepo, BusinessRepo>();
+        Services.AddScoped<IBusinessRepo, BusinessRepo>();
+        Services.AddScoped<IHousingUnitsRepo,HousingUnitsRepo>();
 
         Services.AddDbContext<SiteContext>(opt => opt.UseSqlServer(connStr));
 
@@ -32,6 +36,7 @@ public class DalManager
         CategoriesRepo = provider.GetRequiredService<ICategoriesRepo>();
         CitiesRepo = provider.GetRequiredService<ICitiesRepo>();
         BusinessRepo = provider.GetRequiredService<IBusinessRepo>();
+        HousingUnitRepo = provider.GetRequiredService<IHousingUnitsRepo>();
 
     }
 }
