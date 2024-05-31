@@ -20,5 +20,16 @@ namespace Api.Controllers
         {
             return BusinessRepo.GetAll();
         }
+        [HttpPost]
+        public ActionResult<Business> Post(Business business)
+        {
+            if (business == null)
+            {
+                return BadRequest("The object was not received");
+            }
+            BusinessRepo.Create(business);
+            return business;
+        }
+
     }
 }
