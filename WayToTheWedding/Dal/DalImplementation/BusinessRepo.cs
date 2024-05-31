@@ -21,7 +21,9 @@ namespace Dal.DalImplementation
         }
         public Business Create(Business item)
         {
-            throw new NotImplementedException();
+            siteContext.Businesses.Add(item);
+            siteContext.SaveChanges();
+            return item;
         }
 
         public Business Delete(Business item)

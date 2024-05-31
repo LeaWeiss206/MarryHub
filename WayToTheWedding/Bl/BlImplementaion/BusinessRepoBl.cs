@@ -31,7 +31,9 @@ namespace Bl.BlImplementaion
         }
         public Business Create(Business item)
         {
-            throw new NotImplementedException();
+            Dal.Models.Business business = map.Map<Dal.Models.Business>(item);
+            BusinessRepo.Create(business);
+            return item;
         }
 
         public Business Delete(Business item)
