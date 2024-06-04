@@ -27,15 +27,19 @@ namespace Dal.DalImplementation
         }
         public Business Update(int Id, Business business)
         {
-            Business businessToUpdate = siteContext.Businesses.FirstOrDefault(b => b.Id == Id);
-            siteContext.Businesses.Update(business);
+            int  businessToUpdateId = siteContext.Businesses.ToList().FindIndex(b => b.Id == Id);
+           // siteContext.Businesses.[businessToUpdateId] = business;
+            //siteContext.Businesses.Update(business);
             siteContext.SaveChanges();
-            return business; 
+           return  siteContext.Businesses.ToList()[businessToUpdateId]; 
         }
 
         public Business Delete(int id)
         {
-            throw new NotImplementedException();
+            Business business = siteContext.Businesses.FirstOrDefault(b=>b.Id == id);
+            siteContext.Businesses.Remove(business);
+            siteContext.SaveChanges();
+            return business;
         }
 
        
