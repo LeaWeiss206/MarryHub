@@ -12,6 +12,6 @@ public interface Icrud<T>
     List<T> GetAll();
     T Create(T item);
     T Update(int Id, T item);
-    T Delete(T item);
+    T Delete(int id);
 }
 

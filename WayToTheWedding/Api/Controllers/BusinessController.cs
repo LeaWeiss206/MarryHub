@@ -27,9 +27,36 @@ namespace Api.Controllers
             {
                 return BadRequest("The object was not received");
             }
-            BusinessRepo.Create(business);
-            return business;
+
+            return BusinessRepo.Create(business); 
         }
+
+        [HttpPut("{id}")]
+        public ActionResult<Business> Put(int id, Business business)
+        {
+            if (business == null)
+            {
+                return BadRequest("The object was not received");
+            }
+            if (id < 0)
+            {
+                return BadRequest("The ID is not correct");
+            }
+            
+            return BusinessRepo.Update(id, business);
+        }
+
+        [HttpDelete("{id}")]
+        public ActionResult Delete(int id)
+        {
+            if (id < 0)
+            {
+                return BadRequest("The ID is not correct");
+            }
+            return BusinessRepo.Delete(id);
+        }
+
+
 
     }
 }

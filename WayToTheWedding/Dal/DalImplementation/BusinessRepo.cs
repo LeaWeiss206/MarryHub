@@ -25,6 +25,13 @@ namespace Dal.DalImplementation
             siteContext.SaveChanges();
             return item;
         }
+        public Business Update(int Id, Business business)
+        {
+            Business businessToUpdate = siteContext.Businesses.FirstOrDefault(b => b.Id == Id);
+            siteContext.Businesses.Update(business);
+            siteContext.SaveChanges();
+            return business; 
+        }
 
         public Business Delete(Business item)
         {
@@ -33,9 +40,6 @@ namespace Dal.DalImplementation
 
        
 
-        public Business Update(int Id, Business item)
-        {
-            throw new NotImplementedException();
-        }
+      
     }
 }
