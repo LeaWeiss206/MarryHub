@@ -46,14 +46,14 @@ namespace Api.Controllers
             return HousingUnitRepo.Update(id,housingUnit);
         }
         [HttpDelete("{id}")]
-        public ActionResult<HousingUnit> Delete(HousingUnit housingUnit, int id)
+        public ActionResult<HousingUnit> Delete(int id)
         {
             if (id < 0)
             {
                 return BadRequest("The id is not ");
             }
 
-            return HousingUnitRepo.Delete(id, housingUnit);
+            return HousingUnitRepo.Delete(id);
         }
 
     }

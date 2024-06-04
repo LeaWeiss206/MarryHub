@@ -36,7 +36,7 @@ namespace Bl.BlImplementaion
             throw new NotImplementedException();
         }
 
-        public Bo.City Delete(Bo.City item)
+        public Bo.City Delete(int id)
         {
             throw new NotImplementedException();
         }

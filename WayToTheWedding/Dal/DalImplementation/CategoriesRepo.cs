@@ -22,19 +22,15 @@ namespace Dal.DalImplementation
 
         public Category Create(Category item)
         {
-            siteContext.Categories.Add(item);
-            siteContext.SaveChanges();
-            return item;
+            throw new NotImplementedException();
         }
         public Category Update(int Id, Category item)
         {
             throw new NotImplementedException();
         }
-        public Category Delete(Category item)
+        public Category Delete(int id)
         {
-            siteContext.Categories.Remove(item);
-            siteContext.SaveChanges();
-            return item;
+            throw new NotImplementedException();
         }
     }
 }

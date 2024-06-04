@@ -33,7 +33,7 @@ namespace Dal.DalImplementation
             return business; 
         }
 
-        public Business Delete(Business item)
+        public Business Delete(int id)
         {
             throw new NotImplementedException();
         }

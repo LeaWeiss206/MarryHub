@@ -43,16 +43,18 @@ namespace Bl.BlImplementaion
             return map.Map<HousingUnit>(HousingUnitRepo.Update(Id, housingUnit));
 
         }
+        public HousingUnit Delete(int id)
+        {
+
+            return map.Map<HousingUnit>(HousingUnitRepo.Delete(id));
+        }
 
         public HousingUnit Create(HousingUnit item)
         {
             throw new NotImplementedException();
         }
 
-        public HousingUnit Delete(HousingUnit item)
-        {
-            throw new NotImplementedException();
-        }
+       
 
 
         

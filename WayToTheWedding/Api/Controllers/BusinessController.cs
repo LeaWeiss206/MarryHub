@@ -47,7 +47,7 @@ namespace Api.Controllers
         }
 
         [HttpDelete("{id}")]
-        public ActionResult Delete(int id)
+        public ActionResult<Business> Delete(int id)
         {
             if (id < 0)
             {

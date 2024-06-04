@@ -34,9 +34,12 @@ namespace Dal.DalImplementation
             return item;
         }
 
-        public HousingUnit Delete(HousingUnit item)
+        public HousingUnit Delete(int id)
         {
-            throw new NotImplementedException();
+            HousingUnit housingUnit = siteContext.HousingUnits.FirstOrDefault(b => b.Id == id);
+            siteContext.HousingUnits.Remove(housingUnit);
+            siteContext.SaveChanges();
+            return housingUnit;
         }
 
 

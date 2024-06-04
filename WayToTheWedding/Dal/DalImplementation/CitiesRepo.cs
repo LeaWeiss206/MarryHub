@@ -32,7 +32,7 @@ namespace Dal.DalImplementation
             throw new NotImplementedException();
         }
 
-        public City Delete(City item)
+        public City Delete(int id)
         {
             throw new NotImplementedException();
         }
