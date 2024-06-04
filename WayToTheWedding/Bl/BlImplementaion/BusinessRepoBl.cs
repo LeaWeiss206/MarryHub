@@ -43,7 +43,7 @@ namespace Bl.BlImplementaion
             return map.Map<Business>(BusinessRepo.Update(id,business));
         }
 
-        public Business Delete(Business item)
+        public Business Delete(int id)
         {
             throw new NotImplementedException();
         }

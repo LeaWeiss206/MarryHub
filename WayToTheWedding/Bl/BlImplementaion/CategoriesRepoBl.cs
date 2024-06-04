@@ -43,7 +43,7 @@ namespace Bl.BlImplementaion
             throw new NotImplementedException();
         }
 
-        public Category Delete(Category item)
+        public Category Delete(int id)
         {
             throw new NotImplementedException();
         }

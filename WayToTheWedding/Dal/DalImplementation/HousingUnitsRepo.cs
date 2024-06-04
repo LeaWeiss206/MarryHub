@@ -26,7 +26,7 @@ namespace Dal.DalImplementation
             return item;
         }
 
-        public HousingUnit Delete(HousingUnit item)
+        public HousingUnit Delete(int id)
         {
             throw new NotImplementedException();
         }
