@@ -32,8 +32,15 @@ namespace Bl.BlImplementaion
         public Business Create(Business item)
         {
             Dal.Models.Business business = map.Map<Dal.Models.Business>(item);
-            BusinessRepo.Create(business);
-            return item;
+
+            return map.Map<Business>(BusinessRepo.Create(business));
+        }
+
+        public Business Update(int id, Business item)
+        {
+            Dal.Models.Business business = map.Map<Dal.Models.Business>(item);
+       
+            return map.Map<Business>(BusinessRepo.Update(id,business));
         }
 
         public Business Delete(Business item)
@@ -43,9 +50,6 @@ namespace Bl.BlImplementaion
 
        
 
-        public Business Update(int Id, Business item)
-        {
-            throw new NotImplementedException();
-        }
+       
     }
 }

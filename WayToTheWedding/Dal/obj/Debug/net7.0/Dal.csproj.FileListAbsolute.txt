@@ -82,3 +82,17 @@ C:\Users\User\Downloads\Project\WayToTheWedding\Dal\obj\Debug\net7.0\refint\Dal.
 C:\Users\User\Downloads\Project\WayToTheWedding\Dal\obj\Debug\net7.0\Dal.pdb
 C:\Users\User\Downloads\Project\WayToTheWedding\Dal\obj\Debug\net7.0\Dal.genruntimeconfig.cache
 C:\Users\User\Downloads\Project\WayToTheWedding\Dal\obj\Debug\net7.0\ref\Dal.dll
+H:\MarryHub\WayToTheWedding\Dal\obj\Debug\net7.0\Dal.csproj.AssemblyReference.cache
+H:\MarryHub\WayToTheWedding\Dal\obj\Debug\net7.0\Dal.GeneratedMSBuildEditorConfig.editorconfig
+H:\MarryHub\WayToTheWedding\Dal\obj\Debug\net7.0\Dal.AssemblyInfoInputs.cache
+H:\MarryHub\WayToTheWedding\Dal\obj\Debug\net7.0\Dal.AssemblyInfo.cs
+H:\MarryHub\WayToTheWedding\Dal\obj\Debug\net7.0\Dal.csproj.CoreCompileInputs.cache
+H:\MarryHub\WayToTheWedding\Dal\obj\Debug\net7.0\Dal.dll
+H:\MarryHub\WayToTheWedding\Dal\obj\Debug\net7.0\refint\Dal.dll
+H:\MarryHub\WayToTheWedding\Dal\obj\Debug\net7.0\Dal.pdb
+H:\MarryHub\WayToTheWedding\Dal\bin\Debug\net7.0\Dal.deps.json
+H:\MarryHub\WayToTheWedding\Dal\bin\Debug\net7.0\Dal.runtimeconfig.json
+H:\MarryHub\WayToTheWedding\Dal\bin\Debug\net7.0\Dal.dll
+H:\MarryHub\WayToTheWedding\Dal\bin\Debug\net7.0\Dal.pdb
+H:\MarryHub\WayToTheWedding\Dal\obj\Debug\net7.0\Dal.genruntimeconfig.cache
+H:\MarryHub\WayToTheWedding\Dal\obj\Debug\net7.0\ref\Dal.dll

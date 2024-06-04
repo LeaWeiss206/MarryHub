@@ -2667,23 +2667,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\נלנגר חיה שרה\\.nuget\\packages\\": {},
+    "C:\\Users\\וייס לאה\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\Project\\WayToTheWedding\\Bl\\Bl.csproj",
+      "projectUniqueName": "H:\\MarryHub\\WayToTheWedding\\Bl\\Bl.csproj",
       "projectName": "Bl",
-      "projectPath": "H:\\Project\\WayToTheWedding\\Bl\\Bl.csproj",
-      "packagesPath": "C:\\Users\\נלנגר חיה שרה\\.nuget\\packages\\",
-      "outputPath": "H:\\Project\\WayToTheWedding\\Bl\\obj\\",
+      "projectPath": "H:\\MarryHub\\WayToTheWedding\\Bl\\Bl.csproj",
+      "packagesPath": "C:\\Users\\וייס לאה\\.nuget\\packages\\",
+      "outputPath": "H:\\MarryHub\\WayToTheWedding\\Bl\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\נלנגר חיה שרה\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\וייס לאה\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2692,14 +2692,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "H:\\Project\\WayToTheWedding\\Dal\\Dal.csproj": {
-              "projectPath": "H:\\Project\\WayToTheWedding\\Dal\\Dal.csproj"
+            "H:\\MarryHub\\WayToTheWedding\\Dal\\Dal.csproj": {
+              "projectPath": "H:\\MarryHub\\WayToTheWedding\\Dal\\Dal.csproj"
             }
           }
         }
@@ -2738,13 +2739,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file H:\\Project\\WayToTheWedding\\Bl\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }
