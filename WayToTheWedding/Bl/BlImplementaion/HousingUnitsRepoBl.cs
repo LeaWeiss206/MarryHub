@@ -36,23 +36,28 @@ namespace Bl.BlImplementaion
             return map.Map <HousingUnit> (HousingUnitRepo.Create(housingUnit));
             
         }
-        public HousingUnit Create(HousingUnit item)
-        {
-            Dal.Models.HousingUnit housingUnit= map.Map<Dal.Models.HousingUnit>(item);
-            HousingUnitRepo.Create(housingUnit);
-            return item;
-        }
-
-        public HousingUnit Delete(int id)
-        {
-            throw new NotImplementedException();
-        }
-
-
         public HousingUnit Update(int Id, HousingUnit item)
         {
+            Dal.Models.HousingUnit housingUnit = map.Map<Dal.Models.HousingUnit>(item);
+            housingUnit.Name = HousingUnitRepo.GetAll().FirstOrDefault(h => h.Id == Id).Name;
+            return map.Map<HousingUnit>(HousingUnitRepo.Update(Id, housingUnit));
+
+        }
+        public HousingUnit Delete(int id)
+        {
+
+            return map.Map<HousingUnit>(HousingUnitRepo.Delete(id));
+        }
+
+        public HousingUnit Create(HousingUnit item)
+        {
             throw new NotImplementedException();
         }
+
+       
+
+
+        
 
        
     }

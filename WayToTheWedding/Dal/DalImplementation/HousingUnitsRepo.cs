@@ -25,16 +25,24 @@ namespace Dal.DalImplementation
             siteContext.SaveChanges();
             return item;
         }
+        public HousingUnit Update(int Id, HousingUnit item)
+        {
+            HousingUnit housingUnit = siteContext.HousingUnits.FirstOrDefault(b=>b.Id == Id);
+
+            siteContext.HousingUnits.ToList()[Id] = item;
+            siteContext.SaveChanges();
+            return item;
+        }
 
         public HousingUnit Delete(int id)
         {
-            throw new NotImplementedException();
+            HousingUnit housingUnit = siteContext.HousingUnits.FirstOrDefault(b => b.Id == id);
+            siteContext.HousingUnits.Remove(housingUnit);
+            siteContext.SaveChanges();
+            return housingUnit;
         }
 
 
-        public HousingUnit Update(int Id, HousingUnit item)
-        {
-            throw new NotImplementedException();
-        }
+       
     }
 }

@@ -31,6 +31,30 @@ namespace Api.Controllers
             }
             return HousingUnitRepo.CreateUnit(housingUnit, name);
         }
-       
+        [HttpPut("{id}")]
+        public ActionResult<HousingUnit> Put( HousingUnit housingUnit,int id)
+        {
+            if (housingUnit == null)
+            {
+                return BadRequest("The object was not correct");
+            }
+            if(id < 0) 
+            {
+                return BadRequest("The id is not ");
+            }
+
+            return HousingUnitRepo.Update(id,housingUnit);
+        }
+        [HttpDelete("{id}")]
+        public ActionResult<HousingUnit> Delete(int id)
+        {
+            if (id < 0)
+            {
+                return BadRequest("The id is not ");
+            }
+
+            return HousingUnitRepo.Delete(id);
+        }
+
     }
 }
