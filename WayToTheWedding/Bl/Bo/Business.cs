@@ -24,6 +24,5 @@ namespace Bl.Bo
 
         public string MoreInfo { get; set; }
 
-        public int Stars { get; set; }
     }
 }

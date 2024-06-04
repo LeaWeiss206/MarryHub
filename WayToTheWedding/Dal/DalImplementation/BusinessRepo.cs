@@ -1,6 +1,7 @@
 ﻿using Dal.DalApi;
 using Dal.Models;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -17,7 +18,7 @@ namespace Dal.DalImplementation
         }
         public List<Business> GetAll()
         {
-            return siteContext.Businesses.ToList();
+            return siteContext.Businesses.OrderBy(b => b.Stars).ToList();
         }
         public Business Create(Business item)
         {
@@ -25,13 +26,17 @@ namespace Dal.DalImplementation
             siteContext.SaveChanges();
             return item;
         }
-        public Business Update(int Id, Business business)
+        public Business Update(int id, Business business)
         {
-            int  businessToUpdateId = siteContext.Businesses.ToList().FindIndex(b => b.Id == Id);
-           // siteContext.Businesses.[businessToUpdateId] = business;
-            //siteContext.Businesses.Update(business);
-            siteContext.SaveChanges();
-           return  siteContext.Businesses.ToList()[businessToUpdateId]; 
+             var businessToUpdate = siteContext.Businesses.SingleOrDefault(b => b.Id == id);
+
+             if (businessToUpdate != null)
+             {
+                siteContext.Update(businessToUpdate);
+                siteContext.Entry(businessToUpdate).CurrentValues.SetValues(business);
+                siteContext.SaveChanges();
+             }
+        return businessToUpdate;
         }
 
         public Business Delete(int id)

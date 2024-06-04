@@ -1,4 +1,5 @@
-﻿using Dal.DalApi;
+﻿
+using Dal.DalApi;
 using Dal.Models;
 using System;
 using System.Collections.Generic;
@@ -17,7 +18,7 @@ namespace Dal.DalImplementation
         }
         public List<HousingUnit> GetAll()
         {
-           return siteContext.HousingUnits.ToList();
+            return siteContext.HousingUnits.ToList();
         }
         public HousingUnit Create(HousingUnit item)
         {
@@ -25,13 +26,17 @@ namespace Dal.DalImplementation
             siteContext.SaveChanges();
             return item;
         }
-        public HousingUnit Update(int Id, HousingUnit item)
+        public HousingUnit Update(int id, HousingUnit housingUnit)
         {
-            HousingUnit housingUnit = siteContext.HousingUnits.FirstOrDefault(b=>b.Id == Id);
+            var housingUnitToUpdate = siteContext.Businesses.SingleOrDefault(b => b.Id == id);
 
-            siteContext.HousingUnits.ToList()[Id] = item;
-            siteContext.SaveChanges();
-            return item;
+            if (housingUnitToUpdate != null)
+            {
+                siteContext.Update(housingUnitToUpdate);
+                siteContext.Entry(housingUnitToUpdate).CurrentValues.SetValues(housingUnit);
+                siteContext.SaveChanges();
+            }
+            return housingUnit;
         }
 
         public HousingUnit Delete(int id)
@@ -43,6 +48,6 @@ namespace Dal.DalImplementation
         }
 
 
-       
+
     }
 }
