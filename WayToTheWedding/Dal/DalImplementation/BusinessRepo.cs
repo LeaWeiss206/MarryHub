@@ -18,7 +18,7 @@ namespace Dal.DalImplementation
         }
         public List<Business> GetAll()
         {
-            return siteContext.Businesses.OrderBy(b => b.Stars).ToList();
+            return siteContext.Businesses.OrderByDescending(b => b.Stars).ToList();
         }
         public Business Create(Business item)
         {
