@@ -36,11 +36,17 @@ namespace Bl.BlImplementaion
             return map.Map <HousingUnit> (HousingUnitRepo.Create(housingUnit));
             
         }
+        public HousingUnit Update(int Id, HousingUnit item)
+        {
+            Dal.Models.HousingUnit housingUnit = map.Map<Dal.Models.HousingUnit>(item);
+            housingUnit.Name = HousingUnitRepo.GetAll().FirstOrDefault(h => h.Id == Id).Name;
+            return map.Map<HousingUnit>(HousingUnitRepo.Update(Id, housingUnit));
+
+        }
+
         public HousingUnit Create(HousingUnit item)
         {
-            Dal.Models.HousingUnit housingUnit= map.Map<Dal.Models.HousingUnit>(item);
-            HousingUnitRepo.Create(housingUnit);
-            return item;
+            throw new NotImplementedException();
         }
 
         public HousingUnit Delete(HousingUnit item)
@@ -49,10 +55,7 @@ namespace Bl.BlImplementaion
         }
 
 
-        public HousingUnit Update(int Id, HousingUnit item)
-        {
-            throw new NotImplementedException();
-        }
+        
 
        
     }
