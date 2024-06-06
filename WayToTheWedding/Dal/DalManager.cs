@@ -22,7 +22,7 @@ public class DalManager
     {
         ServiceCollection Services = new ServiceCollection();
 
-        Services.AddSingleton<SiteContext>();
+      //  Services.AddSingleton<SiteContext>();
         Services.AddScoped<ICitiesRepo, CitiesRepo>();
         Services.AddScoped<ICategoriesRepo, CategoriesRepo>();
         Services.AddScoped<IBusinessRepo, BusinessRepo>();
