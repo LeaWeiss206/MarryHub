@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { getItems } from './citiesApi';
+import {  getCities } from './Api';
 
 export default function Cities() {
 
@@ -9,7 +9,7 @@ export default function Cities() {
         const fetchData = async () => {
             try {
                 debugger
-                const result = await getItems();
+                const result = await getCities();
                 setItems(result);
             } catch (error) {
                 console.error('Error fetching items:', error);
@@ -27,7 +27,7 @@ export default function Cities() {
           
                 {items.map(item => (
                  
-                    <li key={item.id}>{item.name}</li>
+                    <li key={item.id}> {item.id}.{item.name}</li>
                 ))}
             </ul>
         </div>

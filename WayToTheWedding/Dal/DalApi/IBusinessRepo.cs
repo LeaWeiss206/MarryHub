@@ -9,5 +9,6 @@ namespace Dal.DalApi
 {
     public interface IBusinessRepo:Icrud<Business>
     {
+        public List<Business> GetByCityAndCategory(int city, int category);
     }
 }

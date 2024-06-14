@@ -29,6 +29,14 @@ namespace Bl.BlImplementaion
             data.ForEach(sin => list.Add(map.Map<Bl.Bo.Business>(sin)));
             return list;
         }
+
+        public List<Business> GetByCityAndCategory(int city, int category)
+        {
+            List<Business> list = new List<Business>();
+            var data = BusinessRepo.GetByCityAndCategory(city, category);
+            data.ForEach(sin => list.Add(map.Map<Bl.Bo.Business>(sin)));
+            return list;
+        }
         public Business Create(Business item)
         {
             Dal.Models.Business business = map.Map<Dal.Models.Business>(item);

@@ -20,6 +20,13 @@ namespace Dal.DalImplementation
         {
             return siteContext.Businesses.OrderByDescending(b => b.Stars).ToList();
         }
+        public List<Business> GetByCityAndCategory(int city, int category)
+        {
+            return siteContext.Businesses
+                .Where(b => b.CityId == city && b.Category == category)
+                .OrderByDescending(b => b.Stars)
+                .ToList();
+        }
         public Business Create(Business item)
         {
             siteContext.Businesses.Add(item);

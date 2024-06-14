@@ -135,3 +135,18 @@ C:\Users\הנהלה\Desktop\MarryHub\WayToTheWedding\Bl\obj\Debug\net7.0\Bl.dll
 C:\Users\הנהלה\Desktop\MarryHub\WayToTheWedding\Bl\obj\Debug\net7.0\refint\Bl.dll
 C:\Users\הנהלה\Desktop\MarryHub\WayToTheWedding\Bl\obj\Debug\net7.0\Bl.pdb
 C:\Users\הנהלה\Desktop\MarryHub\WayToTheWedding\Bl\obj\Debug\net7.0\ref\Bl.dll
+C:\Users\User\Desktop\פרוייקט  חתונהה\MarryHub\WayToTheWedding\Bl\bin\Debug\net7.0\Bl.deps.json
+C:\Users\User\Desktop\פרוייקט  חתונהה\MarryHub\WayToTheWedding\Bl\bin\Debug\net7.0\Bl.dll
+C:\Users\User\Desktop\פרוייקט  חתונהה\MarryHub\WayToTheWedding\Bl\bin\Debug\net7.0\Bl.pdb
+C:\Users\User\Desktop\פרוייקט  חתונהה\MarryHub\WayToTheWedding\Bl\bin\Debug\net7.0\Dal.dll
+C:\Users\User\Desktop\פרוייקט  חתונהה\MarryHub\WayToTheWedding\Bl\bin\Debug\net7.0\Dal.pdb
+C:\Users\User\Desktop\פרוייקט  חתונהה\MarryHub\WayToTheWedding\Bl\obj\Debug\net7.0\Bl.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\פרוייקט  חתונהה\MarryHub\WayToTheWedding\Bl\obj\Debug\net7.0\Bl.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\פרוייקט  חתונהה\MarryHub\WayToTheWedding\Bl\obj\Debug\net7.0\Bl.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\פרוייקט  חתונהה\MarryHub\WayToTheWedding\Bl\obj\Debug\net7.0\Bl.AssemblyInfo.cs
+C:\Users\User\Desktop\פרוייקט  חתונהה\MarryHub\WayToTheWedding\Bl\obj\Debug\net7.0\Bl.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\פרוייקט  חתונהה\MarryHub\WayToTheWedding\Bl\obj\Debug\net7.0\Bl.csproj.CopyComplete
+C:\Users\User\Desktop\פרוייקט  חתונהה\MarryHub\WayToTheWedding\Bl\obj\Debug\net7.0\Bl.dll
+C:\Users\User\Desktop\פרוייקט  חתונהה\MarryHub\WayToTheWedding\Bl\obj\Debug\net7.0\refint\Bl.dll
+C:\Users\User\Desktop\פרוייקט  חתונהה\MarryHub\WayToTheWedding\Bl\obj\Debug\net7.0\Bl.pdb
+C:\Users\User\Desktop\פרוייקט  חתונהה\MarryHub\WayToTheWedding\Bl\obj\Debug\net7.0\ref\Bl.dll

@@ -20,6 +20,12 @@ namespace Api.Controllers
         {
             return BusinessRepo.GetAll();
         }
+        [HttpGet("Filter")]
+        public ActionResult<List<Business>> GetByCityAndCategory(int city, int category)
+        {
+            return BusinessRepo.GetByCityAndCategory(city, category);
+        }
+
         [HttpPost]
         public ActionResult<Business> Post(Business business)
         {
