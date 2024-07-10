@@ -29,6 +29,14 @@ namespace Bl.BlImplementaion
             data.ForEach(sin => list.Add(map.Map<HousingUnit>(sin)));
             return list;
         }
+        public List<HousingUnit> GetByCity(int cityId)
+        {
+            List<HousingUnit> list = new();
+            var data = HousingUnitRepo.GetByCity(cityId);
+            data.ForEach(sin => list.Add(map.Map<HousingUnit>(sin)));
+            return list;
+        }
+
         public HousingUnit CreateUnit(HousingUnit unit, string name)
         {
             Dal.Models.HousingUnit housingUnit = map.Map<Dal.Models.HousingUnit>(unit);

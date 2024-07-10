@@ -1,6 +1,5 @@
 import logo from './logo.svg';
 import './App.css';
-import Cities from './Cities';
 import Home from './Home';
 
 function App() {

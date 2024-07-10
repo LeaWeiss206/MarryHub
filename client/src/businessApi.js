@@ -11,3 +11,13 @@ export const getBusinessByCityAndCategory = async (city, category) => {
       throw error;
     }
   };
+
+  export const getHousingUnitsByCity = async(city) => {
+    try {
+      const response = await axios.get(`${API_URL}/HousingUnits/${city}`);
+      return response.data;
+    } catch (error) {
+      console.error('Error fetching business:', error);
+      throw error;
+    }
+  }

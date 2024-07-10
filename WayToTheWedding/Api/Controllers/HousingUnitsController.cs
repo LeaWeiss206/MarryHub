@@ -22,6 +22,13 @@ namespace Api.Controllers
             return HousingUnitRepo.GetAll();
         }
 
+        [HttpGet("{cityId}")]
+        public ActionResult<List<HousingUnit>> GetByCity(int cityId)
+        {
+            return HousingUnitRepo.GetByCity(cityId);
+        }
+
+
         [HttpPost("{name}")]
         public ActionResult<HousingUnit> Post(string name,HousingUnit housingUnit)
         {

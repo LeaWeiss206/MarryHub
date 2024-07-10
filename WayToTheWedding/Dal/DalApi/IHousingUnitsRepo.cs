@@ -9,6 +9,6 @@ namespace Dal.DalApi
 {
     public interface IHousingUnitsRepo:Icrud<HousingUnit>
     {
-       
+        public List<HousingUnit> GetByCity(int cityId);
     }
 }

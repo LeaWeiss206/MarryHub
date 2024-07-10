@@ -20,6 +20,11 @@ namespace Dal.DalImplementation
         {
             return siteContext.HousingUnits.ToList();
         }
+        public List<HousingUnit> GetByCity(int cityId)
+        {
+            return siteContext.HousingUnits.Where(h => h.CityId == cityId).ToList();
+        }
+
         public HousingUnit Create(HousingUnit item)
         {
             siteContext.HousingUnits.Add(item);

@@ -1,12 +1,139 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\User\\Documents\\Studies\\MarryHub\\WayToTheWedding\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5E7A89-EF59-49AA-92C7-63B3FCA3ECBC}|Dal\\Dal.csproj|c:\\users\\user\\documents\\studies\\marryhub\\waytothewedding\\dal\\dalimplementation\\housingunitsrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C5E7A89-EF59-49AA-92C7-63B3FCA3ECBC}|Dal\\Dal.csproj|solutionrelative:dal\\dalimplementation\\housingunitsrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5E7A89-EF59-49AA-92C7-63B3FCA3ECBC}|Dal\\Dal.csproj|c:\\users\\user\\documents\\studies\\marryhub\\waytothewedding\\dal\\dalapi\\ihousingunitsrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C5E7A89-EF59-49AA-92C7-63B3FCA3ECBC}|Dal\\Dal.csproj|solutionrelative:dal\\dalapi\\ihousingunitsrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5E7A89-EF59-49AA-92C7-63B3FCA3ECBC}|Dal\\Dal.csproj|c:\\users\\user\\documents\\studies\\marryhub\\waytothewedding\\dal\\models\\housingunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C5E7A89-EF59-49AA-92C7-63B3FCA3ECBC}|Dal\\Dal.csproj|solutionrelative:dal\\models\\housingunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB320B38-7002-437A-BBA0-C77DB08577F6}|Bl\\Bl.csproj|c:\\users\\user\\documents\\studies\\marryhub\\waytothewedding\\bl\\bo\\housingunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB320B38-7002-437A-BBA0-C77DB08577F6}|Bl\\Bl.csproj|solutionrelative:bl\\bo\\housingunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{866BE9B0-42AF-4C0C-AACB-46AE55A7B5CF}|Api\\Api.csproj|c:\\users\\user\\documents\\studies\\marryhub\\waytothewedding\\api\\controllers\\housingunitscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{866BE9B0-42AF-4C0C-AACB-46AE55A7B5CF}|Api\\Api.csproj|solutionrelative:api\\controllers\\housingunitscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB320B38-7002-437A-BBA0-C77DB08577F6}|Bl\\Bl.csproj|c:\\users\\user\\documents\\studies\\marryhub\\waytothewedding\\bl\\blimplementaion\\housingunitsrepobl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB320B38-7002-437A-BBA0-C77DB08577F6}|Bl\\Bl.csproj|solutionrelative:bl\\blimplementaion\\housingunitsrepobl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB320B38-7002-437A-BBA0-C77DB08577F6}|Bl\\Bl.csproj|c:\\users\\user\\documents\\studies\\marryhub\\waytothewedding\\bl\\blapi\\ihousingunitsrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB320B38-7002-437A-BBA0-C77DB08577F6}|Bl\\Bl.csproj|solutionrelative:bl\\blapi\\ihousingunitsrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HousingUnit.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Studies\\MarryHub\\WayToTheWedding\\Dal\\Models\\HousingUnit.cs",
+              "RelativeDocumentMoniker": "Dal\\Models\\HousingUnit.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\Studies\\MarryHub\\WayToTheWedding\\Dal\\Models\\HousingUnit.cs",
+              "RelativeToolTip": "Dal\\Models\\HousingUnit.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAzwAkAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T15:02:15.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HousingUnit.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Studies\\MarryHub\\WayToTheWedding\\Bl\\Bo\\HousingUnit.cs",
+              "RelativeDocumentMoniker": "Bl\\Bo\\HousingUnit.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\Studies\\MarryHub\\WayToTheWedding\\Bl\\Bo\\HousingUnit.cs",
+              "RelativeToolTip": "Bl\\Bo\\HousingUnit.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAzwA4AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T14:57:06.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IHousingUnitsRepo.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Studies\\MarryHub\\WayToTheWedding\\Dal\\DalApi\\IHousingUnitsRepo.cs",
+              "RelativeDocumentMoniker": "Dal\\DalApi\\IHousingUnitsRepo.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\Studies\\MarryHub\\WayToTheWedding\\Dal\\DalApi\\IHousingUnitsRepo.cs",
+              "RelativeToolTip": "Dal\\DalApi\\IHousingUnitsRepo.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T14:26:45.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HousingUnitsRepo.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Studies\\MarryHub\\WayToTheWedding\\Dal\\DalImplementation\\HousingUnitsRepo.cs",
+              "RelativeDocumentMoniker": "Dal\\DalImplementation\\HousingUnitsRepo.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\Studies\\MarryHub\\WayToTheWedding\\Dal\\DalImplementation\\HousingUnitsRepo.cs",
+              "RelativeToolTip": "Dal\\DalImplementation\\HousingUnitsRepo.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAgwBgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T14:14:49.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HousingUnitsRepoBl.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Studies\\MarryHub\\WayToTheWedding\\Bl\\BlImplementaion\\HousingUnitsRepoBl.cs",
+              "RelativeDocumentMoniker": "Bl\\BlImplementaion\\HousingUnitsRepoBl.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\Studies\\MarryHub\\WayToTheWedding\\Bl\\BlImplementaion\\HousingUnitsRepoBl.cs",
+              "RelativeToolTip": "Bl\\BlImplementaion\\HousingUnitsRepoBl.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAAwB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T14:14:37.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IHousingUnitsRepo.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Studies\\MarryHub\\WayToTheWedding\\Bl\\BlApi\\IHousingUnitsRepo.cs",
+              "RelativeDocumentMoniker": "Bl\\BlApi\\IHousingUnitsRepo.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\Studies\\MarryHub\\WayToTheWedding\\Bl\\BlApi\\IHousingUnitsRepo.cs",
+              "RelativeToolTip": "Bl\\BlApi\\IHousingUnitsRepo.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T14:14:22.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HousingUnitsController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Studies\\MarryHub\\WayToTheWedding\\Api\\Controllers\\HousingUnitsController.cs",
+              "RelativeDocumentMoniker": "Api\\Controllers\\HousingUnitsController.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\Studies\\MarryHub\\WayToTheWedding\\Api\\Controllers\\HousingUnitsController.cs",
+              "RelativeToolTip": "Api\\Controllers\\HousingUnitsController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAADgvxsAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T14:14:08.43Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

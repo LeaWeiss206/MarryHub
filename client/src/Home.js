@@ -1,6 +1,6 @@
 import { getCities, getCategories } from "./Api";
 import React, { useEffect, useState } from 'react';
-import { getBusinessByCityAndCategory } from "./businessApi";
+import { getBusinessByCityAndCategory, getHousingUnitsByCity } from "./businessApi";
 
 export default function Home() 
 {
@@ -37,13 +37,21 @@ export default function Home()
         const fetchBusiness = async () => {
             if (selectedCity && selectedCategory) {
                 try {
-                    const result = await getBusinessByCityAndCategory(selectedCity, selectedCategory);
+                    debugger
+                    let result;
+                    if (selectedCategory === "16") {
+                      
+                        result = await getHousingUnitsByCity(selectedCity);
+                    } else {
+                        result = await getBusinessByCityAndCategory(selectedCity, selectedCategory);
+                    }
                     setBusiness(result);
                 } catch (error) {
                     console.error('Error fetching business:', error);
                 }
             }
         };
+        
         fetchBusiness();
     }, [selectedCity, selectedCategory]);
 
@@ -69,10 +77,12 @@ export default function Home()
                 </select>
             </div>
             <div>
-                <h2>עסקים</h2>
+                <h2>{selectedCategory === "16" ? "יחידות דיור" : "עסקים"}</h2>
                 <ul>
-                    {business.map((item, index) => (
+                    { selectedCategory !== "16"? business.map((item, index) => (
                         <li key={index}>{item.name}</li>
+                    )): business.map((item, index) => (
+                        <li key={index}></li>
                     ))}
                 </ul>
             </div>

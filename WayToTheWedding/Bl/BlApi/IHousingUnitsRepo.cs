@@ -10,5 +10,7 @@ namespace Bl.BlApi
     public interface IHousingUnitsRepo:Icrud<HousingUnit>
     {
       public HousingUnit CreateUnit(HousingUnit unit,string name);
+      public List<HousingUnit> GetByCity(int cityId);
+
     }
 }
