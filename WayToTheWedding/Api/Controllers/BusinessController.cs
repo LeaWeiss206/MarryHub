@@ -62,7 +62,16 @@ namespace Api.Controllers
             return BusinessRepo.Delete(id);
         }
 
+        [HttpPut("IncrementStars/{id}")]
+        public ActionResult<Business> IncrementStars(int id)
+        {
+            if (id < 0)
+            {
+                return BadRequest("The ID is not correct");
+            }
 
+            return BusinessRepo.IncrementStars(id);
+        }
 
     }
 }

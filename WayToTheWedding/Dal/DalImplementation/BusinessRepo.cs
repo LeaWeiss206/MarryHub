@@ -54,8 +54,20 @@ namespace Dal.DalImplementation
             return business;
         }
 
-       
+        public Business IncrementStars(int id)
+        {
+            var businessToUpdate = siteContext.Businesses.FirstOrDefault(b => b.Id == id);
 
-      
+            if (businessToUpdate != null)
+            {
+                businessToUpdate.Stars++;
+                siteContext.SaveChanges();
+            }
+
+            return businessToUpdate;
+        }
+
+
+
     }
 }

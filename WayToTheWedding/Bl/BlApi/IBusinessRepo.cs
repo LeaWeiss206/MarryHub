@@ -11,5 +11,6 @@ namespace Bl.BlApi
     public interface IBusinessRepo:Icrud<Bo.Business>
     {
         public List<Bo.Business> GetByCityAndCategory(int city, int category);
+        public Bo.Business IncrementStars(int id);
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "i3uXZpju0FB3aIinZFq+sSzARM5t/TVsV+eQ/dWIoiiyylhJZWoIiYUrY8W767dtvEhtGNwaGKDzcyo6ok+jEA==",
+  "dgSpecHash": "a69wtSWlu18=",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\Desktop\\פרוייקט  חתונהה\\MarryHub\\WayToTheWedding\\Bl\\Bl.csproj",
+  "projectFilePath": "C:\\Users\\User\\Documents\\Studies\\MarryHub\\WayToTheWedding\\Bl\\Bl.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",

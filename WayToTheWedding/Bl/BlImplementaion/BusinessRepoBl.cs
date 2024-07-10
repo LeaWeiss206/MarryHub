@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 
 namespace Bl.BlImplementaion
 {
-    internal class BusinessRepoBl : BlApi.IBusinessRepo
+    public class BusinessRepoBl : BlApi.IBusinessRepo
     {
 
         Dal.DalApi.IBusinessRepo BusinessRepo;
@@ -55,9 +55,16 @@ namespace Bl.BlImplementaion
         {
              return map.Map<Business>(BusinessRepo.Delete(id));
         }
+        public Business IncrementStars(int id)
+        {
+            var business = BusinessRepo.IncrementStars(id);
+            return map.Map<Business>(business);
+        }
 
-       
 
-       
+
+
+
+
     }
 }
